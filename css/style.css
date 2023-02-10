@@ -1,0 +1,160 @@
+@import url('https://fonts.cdnfonts.com/css/love-lady-personal-use%27');
+@import url('https://fonts.cdnfonts.com/css/melted-monster%27');
+
+/* ========= Parametres Generales - START ========= */
+
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #191e20;
+  margin-top: 6vw;
+  margin-bottom: 3vh;
+}
+section{
+  padding-bottom: 2%;
+}
+footer{
+  margin-bottom: -20px;
+}
+
+
+/* --- Text--- */
+h2{
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+p {
+  line-height: 2rem;
+  font-size: 20px;
+}
+
+
+/* --- Footer Text--- */
+footer h5{
+  font-size: 25px;
+  font-weight: 700;
+}
+footer ul li a,footer ul li{
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+/* ========= Parametres Generales - END ========= */
+
+
+
+/* ========= NavBar - START ========= */
+nav div{
+  display: flex;
+  justify-content: center;
+  flex-direction:row;
+}
+nav ul a{
+  color: #191e20;
+  font-size: xx-large;
+  font-weight: 550;
+  font-size: 30px;
+
+}
+nav ul li a:hover{
+  color: #eceff1 ;
+  background-color: #191e20;
+}
+
+/* --- Side NavBar - Mobile --- */
+.sidenav-trigger{
+  font-size: 2rem;
+  color: #191e20;
+}
+.sidenav li a{
+  font-size: 2rem;
+  color: #191e20;
+  margin-top: 3rem;
+  font-weight: 550;
+
+}
+.sidenav li a:hover {
+  background-color: none;
+  color: #eceff1;
+}
+/* ========= NavBar - END ========= */
+
+
+
+
+/* ========= Image Moving - START ========= */
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+/* ========= Image Moving - END ========= */
+
+
+
+
+/* ========= Card - START ========= */
+#Card_title{
+  font-size:35px;
+  font-weight: 550;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+#Card_para{
+  font-size:25px;
+}
+/* ========= Card - END ========= */
+
+
+
+
+/* ========= Responsive - START ========= */
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+  p {
+    font-size: 15px;
+  }
+  #Card_title{
+    font-size:25px;
+  }
+  #Card_para{
+    font-size:15px;
+  }
+
+  /* --- Footer --- */
+  footer h5{
+    font-size: 18px;
+    font-weight: 700;
+  }
+  footer ul li a,footer ul li{
+    font-size: 13px;
+    margin-bottom: 1rem;
+  }
+  
+
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+/* ========= Responsive - END ========= */

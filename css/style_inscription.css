@@ -1,0 +1,114 @@
+.form-style input[type=submit],
+.form-style input[class=reset],
+.form-style input[type=button]
+{
+	background: #fcfcfc;
+	border: 1px solid #808080;
+	padding: 5px 15px 5px 15px;
+	color: #000000;
+	box-shadow: inset -1px -1px 3px #fff8fb;
+	-moz-box-shadow: inset -1px -1px 3px #ffffff;
+	-webkit-box-shadow: inset -1px -1px 3px #ffffff;
+	border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;	
+	font-weight: bold;
+    cursor: pointer;
+}
+
+
+.form-style input[name=nom],
+.form-style input[name=prenom],
+.form-style input[name=email],
+.form-style input[name=password],
+.form-style input[name=checkbox],
+.form-style select, 
+.form-style textarea
+{
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border: 1px solid #808080;
+	outline: none;
+	color: #000000;
+	padding: 5px 8px 5px 8px;
+	box-shadow: inset 1px 1px 4px #ffffff;
+	-moz-box-shadow: inset 1px 1px 4px #ffffff;
+	-webkit-box-shadow: inset 1px 1px 4px #ffffff;
+	background: #ffffff;
+	width:100%;
+}
+
+.form-style
+{
+	position: relative;
+	margin-top: 6vw;
+    margin-bottom: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 800px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form-style label
+{
+	display:block;
+	margin-bottom: 10px;
+}
+
+.form-style label > span
+{
+	float: left;
+	width: auto;
+	color: #000000;
+	font-weight: bold;
+	font-size: 2vw;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+.form-style fieldset
+{
+    
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #808080;
+	padding: 20px;
+	background: #ffffff;
+	box-shadow: inset 0px 0px 15px #ffffff;
+	-moz-box-shadow: inset 0px 0px 15px #ffffff;
+	-webkit-box-shadow: inset 0px 0px 15px #ffffff;
+}
+
+.form-style fieldset legend
+{
+	color: #000000;
+	border-top: 1px solid #808080;
+	border-left: 1px solid #808080;
+	border-right: 1px solid #808080;
+	border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	background: #ffffff;
+	padding: 0px 8px 3px 8px;
+	box-shadow: -0px -1px 2px #ffffff;
+	-moz-box-shadow:-0px -1px 2px #ffffff;
+	-webkit-box-shadow:-0px -1px 2px #ffffff;
+	font-weight: normal;
+	font-size: 2vw;
+}
+
+.form-style textarea
+{
+    font-size: 2vw;
+	width: 760px;
+	height: 300px;
+    resize: none;
+}
+
+.form-style input
+{
+    font-size: 2vw;
+}

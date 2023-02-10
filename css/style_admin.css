@@ -1,0 +1,15 @@
+body{
+    margin-top: 6vw;
+    margin-bottom: 3vh;
+}
+
+label
+{
+    width: 1400px;
+}
+
+.categorie
+{
+    display: flex;
+    justify-content: center;
+}
